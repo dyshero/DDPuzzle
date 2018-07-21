@@ -45,14 +45,16 @@ While your App Store Connect Application State shows as Metadata Rejected, we st
 大致意思是我得把APP做成在适用于4岁+的，也就是说虽然我把那个等级设置成了12岁+，但是没有用，这个APP必须得试用于4岁+。哎，，，我已经把所有的图片给换掉了，换的图片上的人都捂的严实的很，APP logo我也没发现异常，APP预览图也没有问题，为何还是被拒，心累呀，现在先把项目放放吧，到时候再看着改改重新提交吧。其实还有一种解决方案的，就是写后台代码，通过后台进行控制图片显示，但是现在苦于不会也是没法子呀。
 
 ## APP介绍
-视频连接：[链接](http://www.iqiyi.com/w_19rymcs54d.html)
+视频连接：[链接](http://www.iqiyi.com/w_19rymcs54d.html)）（这个是初始的）
 APP游戏部分分为三个场景，分别是Dear、Honey、Summer，每个模块下包括5个关卡。进入游戏之后，根据可以点击Auto让其自动完成，当然，让其自动完成是要收费的🤣，最后根据完成的时候会给你相应的分数，最高是4分。另外，APP中还加入了Game Center可以查看玩家的排行榜。
 
 ## 2018-07-03更新
 经过对界面的大改，终于过审了，哈哈哈。[下载链接](https://itunes.apple.com/cn/app/yi-xiao-tong-meng-yu-ban/id1397291723?mt=8)
+简书地址：[地址](https://www.jianshu.com/p/42eb78ef2070)
 
 ## 2018-07-21更新
 APP大改版，去掉了GameCenter，去掉了场景，用户自己选择壁纸进行拼图，高清壁纸时常更新，玩游戏下载壁纸，并且可以对壁纸进行涂鸦，添加文字，添加滤镜，添加贴纸。并且添加了VIP功能（收费的哦），解锁VIP之后可以下载任意的壁纸。
+
 
 ## 截图
 
@@ -72,9 +74,9 @@ APP大改版，去掉了GameCenter，去掉了场景，用户自己选择壁纸�
 
 ![8.png](https://upload-images.jianshu.io/upload_images/6635229-ee3c40fe9cb95dcf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
-
-
-
 ## 后记
 其实写这个也算是一篇开发中的随笔吧。
+
+## About Me
+邮箱：herodys@163.com 
+欢迎发邮件提建议，阿里嘎多！
