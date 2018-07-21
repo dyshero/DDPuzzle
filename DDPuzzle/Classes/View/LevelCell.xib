@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoMincho.ttc">
+            <string>HiraMinProN-W3</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="43" id="KGk-i7-Jjw" customClass="LevelCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gpk-bG-FD6">
+                        <rect key="frame" x="142.5" y="29.5" width="15" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="qxV-ge-85v"/>
+                            <constraint firstAttribute="width" constant="15" id="y8m-5W-W7G"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IdL-Nt-tEQ">
+                        <rect key="frame" x="82.5" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="IdL-Nt-tEQ" secondAttribute="height" multiplier="1:1" id="2KQ-j2-kX6"/>
+                            <constraint firstAttribute="width" constant="40" id="EkW-HA-0lw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4i-AQ-XW4">
+                        <rect key="frame" x="172.5" y="18" width="56.5" height="24"/>
+                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="24"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Gpk-bG-FD6" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="-10" id="IhI-0q-jC5"/>
+                    <constraint firstItem="r4i-AQ-XW4" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="TY4-N7-7jM"/>
+                    <constraint firstItem="r4i-AQ-XW4" firstAttribute="leading" secondItem="Gpk-bG-FD6" secondAttribute="trailing" constant="15" id="Twt-ON-sap"/>
+                    <constraint firstItem="Gpk-bG-FD6" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="beZ-Vd-UPU"/>
+                    <constraint firstItem="Gpk-bG-FD6" firstAttribute="leading" secondItem="IdL-Nt-tEQ" secondAttribute="trailing" constant="20" id="qhk-I9-Whv"/>
+                    <constraint firstItem="IdL-Nt-tEQ" firstAttribute="centerY" secondItem="Gpk-bG-FD6" secondAttribute="centerY" id="r9A-n9-yio"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="iconImg" destination="IdL-Nt-tEQ" id="yaA-ep-9VH"/>
+                <outlet property="imgWidthConstaint" destination="EkW-HA-0lw" id="OIR-7o-10H"/>
+                <outlet property="leftConstraint" destination="qhk-I9-Whv" id="mHj-0g-CE8"/>
+                <outlet property="rightConstraint" destination="Twt-ON-sap" id="p0Z-Dh-Qj6"/>
+                <outlet property="titLabel" destination="r4i-AQ-XW4" id="7hN-TM-h6N"/>
+            </connections>
+            <point key="canvasLocation" x="270" y="32"/>
+        </tableViewCell>
+    </objects>
+</document>

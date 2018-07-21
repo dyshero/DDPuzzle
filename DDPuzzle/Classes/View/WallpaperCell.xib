@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WallpaperCell">
+            <rect key="frame" x="0.0" y="0.0" width="102" height="95"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="102" height="95"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ghP-9M-Tlg">
+                        <rect key="frame" x="0.0" y="0.0" width="102" height="95"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ghP-9M-Tlg" secondAttribute="bottom" id="D28-9Y-5s1"/>
+                <constraint firstAttribute="trailing" secondItem="ghP-9M-Tlg" secondAttribute="trailing" id="D2l-2S-gPf"/>
+                <constraint firstItem="ghP-9M-Tlg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="X2a-1A-Qoe"/>
+                <constraint firstItem="ghP-9M-Tlg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="jaG-J3-MIO"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="102" height="95"/>
+            <connections>
+                <outlet property="iconImageView" destination="ghP-9M-Tlg" id="SJy-iz-3Lb"/>
+            </connections>
+            <point key="canvasLocation" x="60" y="76.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
