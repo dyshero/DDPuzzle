@@ -158,7 +158,7 @@
 
 - (void)loadLeftData {
     
-    NSString *url = [NSString stringWithFormat:@"http://service.aibizhi.adesk.com/v1/lightwp/vertical?adult=0&appid=%@&appver=%@&appvercode=%@&channel=ipicture&first=1&lan=zh-Hans-CN&limit=30&order=mixin&skip=%ld&sys_model=iPhone&sys_name=iOS&sys_ver=%@",[NSString getBundleID],[NSString getLocalAppVersion],[NSString getBuildVersion],_leftPage*30,[NSString getPhoneVersion]];
+    NSString *url = @"";
     
     [AFNet requestWithUrl:url requestType:HttpRequestTypeGet parameter:nil completation:^(id object) {
         if (_leftView.mj_header.isRefreshing) {
@@ -187,7 +187,7 @@
 
 - (void)loadmiddleData {
     
-    NSString *url = [NSString stringWithFormat:@"http://service.aibizhi.adesk.com/v1/lightwp/vertical?adult=0&appid=%@&appver=%@&appvercode=%@&channel=ipicture&first=1&lan=zh-Hans-CN&limit=30&order=hot&skip=%ld&sys_model=iPhone&sys_name=iOS&sys_ver=%@",[NSString getBundleID],[NSString getLocalAppVersion],[NSString getBuildVersion],_middlePage*30,[NSString getPhoneVersion]];
+    NSString *url = @"";
     
     [AFNet requestWithUrl:url requestType:HttpRequestTypeGet parameter:nil completation:^(id object) {
         if (_middleView.mj_header.isRefreshing) {
@@ -215,7 +215,7 @@
 }
 
 - (void)loadRightData {
-    [AFNet requestWithUrl:[NSString stringWithFormat:@"http://api.bizhi.51app.cn/w/showCatSub//9409/0/%ld.do",_rightPage] requestType:HttpRequestTypeGet parameter:nil completation:^(id object) {
+    [AFNet requestWithUrl:@"" requestType:HttpRequestTypeGet parameter:nil completation:^(id object) {
         if (_rightView.mj_header.isRefreshing) {
             [_rightView.mj_header endRefreshing];
         }
