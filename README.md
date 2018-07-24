@@ -75,7 +75,7 @@ APP大改版，去掉了GameCenter，去掉了场景，用户自己选择壁纸�
 ![8.png](https://upload-images.jianshu.io/upload_images/6635229-ee3c40fe9cb95dcf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 后记
-其实写这个也算是一篇开发中的随笔吧。由于版权问题，我把接口链接屏蔽掉了，希望能谅解。
+其实写这个也算是一篇开发中的随笔吧。由于版权问题，我把接口链接屏蔽掉了，希望能理解。
 
 ## About Me
 邮箱：herodys@163.com 
